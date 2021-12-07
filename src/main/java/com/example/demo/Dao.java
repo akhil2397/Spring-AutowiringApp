@@ -28,6 +28,7 @@ public class Dao {
 		
 		boolean status = userService.save();
 		if(status) {
+                            // record inserted
 			System.out.print("record inserted");
 		}
 		else
